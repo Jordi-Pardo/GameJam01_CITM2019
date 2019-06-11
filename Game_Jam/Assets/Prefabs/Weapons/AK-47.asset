@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93310cc5852dc84ea16751b3176c606, type: 3}
+  m_Name: AK-47
+  m_EditorClassIdentifier: 
+  stats:
+    Weapon_Name: AK-47
+    WeaponModel: {fileID: 4300000, guid: 195108c14c5213342875ebfc3bdd000f, type: 3}
+    Damage: 30
+    Range: 10
+    MaxAmmo: 90
+    CurrentAmmo: 30
+    Icon: {fileID: 21300000, guid: a8fdf3d2921b2fb48b3cb5bf4790837d, type: 3}
+    WeaponType: 1
+    ReloadAmmo: 30
+    DelayOnShoot: 0.4
